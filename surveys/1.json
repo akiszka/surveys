@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Pytanie testowe 1",
+    "type": "radio",
+    "answers": [
+      "Test 1",
+      "Test 2",
+      "Test 3"
+    ]
+  },
+  {
+    "name": "Pytanie testowe 2",
+    "type": "checkbox",
+    "answers": [
+      "Box 1",
+      "Box 2"
+    ]
+  }
+]
