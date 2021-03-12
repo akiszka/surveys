@@ -7,21 +7,21 @@
   <body bgcolor="orange">
     <nav class="flex items-center center bg-light-gray mb2 pa3 w-100 shadow-1">
       <div class="ml5-ns mr5">
-	<h1 class="normal sans-serif">Kiszka Surveys</h1>
+	<p class="f3 sans-serif">Kiszka Surveys</p>
       </div>
       <div>
 	<p>Profesjonalne ankiety w Twoim domu</p>
       </div>
     </nav>
 
-    <article class="w-50 pa2 center">
+    <article class="w-50 pa2 center sans-serif">
       <form id="mainForm">
       </form>
     </article>
 
     <script src="./loader.js"></script>
     <script>
-      var which = new URLSearchParams(window.location.search).get("survey")
+      var which = new URLSearchParams(window.location.search).get("s")
       loadSurvey(which)
     </script>
   </body>

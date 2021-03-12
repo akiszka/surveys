@@ -9,7 +9,7 @@ function loadSurvey(id) {
       data.forEach((question, qIndex) => {
 	htmlString += `
 <section class="pa4 ma3 bg-white br4">
-	<p class="f3 ma3 mt1 sans-serif">${question.name}</p>`
+	<p class="f3 ma3 mt1">${question.name}</p>`
 
 	question.answers.forEach((answer, aIndex) => {
 	  htmlString += `
@@ -22,7 +22,7 @@ function loadSurvey(id) {
 	htmlString += '</section>'
       });
 
-      htmlString += '<section class="pa4 pt1 ml3"><input class="pa1 pl3 pr3" type="submit" value="Wyślij"></section>'
+      htmlString += '<section class="pa3 pt1 ml3"><input class="pt2 pb2 pl3 pr3" type="submit" value="Wyślij"></section>'
       form.innerHTML = htmlString
     })
     .catch(q => {
