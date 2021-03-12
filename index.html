@@ -21,7 +21,8 @@
 
     <script src="./loader.js"></script>
     <script>
-      loadSurvey(1);
+      var which = new URLSearchParams(window.location.search).get("survey")
+      loadSurvey(which)
     </script>
   </body>
 </html>
