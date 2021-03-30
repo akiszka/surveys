@@ -6,7 +6,9 @@ function loadSurvey(id) {
     .then(data => {
       var htmlString = ""
 
-      data.forEach((question, qIndex) => {
+      document.getElementById("description").innerHTML = data.description
+
+      data.questions.forEach((question, qIndex) => {
 	htmlString += `
 <section class="pa4 ma3 bg-white br4">
 	<p class="f3 ma3 mt1">${question.name}</p>`

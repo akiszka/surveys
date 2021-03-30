@@ -1,19 +1,41 @@
-[
-  {
-    "name": "Pytanie testowe 1",
-    "type": "radio",
-    "answers": [
-      "Test 1",
-      "Test 2",
-      "Test 3"
-    ]
-  },
-  {
-    "name": "Pytanie testowe 2",
-    "type": "checkbox",
-    "answers": [
-      "Box 1",
-      "Box 2"
-    ]
-  }
-]
+{
+  "description": "Badanie opinii. Wszystkie odpowiedzi są anonimowe",
+  "questions": [
+    {
+      "name": "Pytanie testowe 1",
+      "type": "radio",
+      "answers": [
+	"Test 1",
+	"Test 2",
+	"Test 3"
+      ]
+    },
+    {
+      "name": "Pytanie testowe 2",
+      "type": "checkbox",
+      "answers": [
+	"Box 1",
+	"Box 2"
+      ]
+    },
+    {
+      "name": "Pytanie testowe 3",
+      "type": "radio",
+      "answers": [
+	"Box 1",
+	"Box 2",
+	"Box 1",
+	"Box 2",
+	"Box 1",
+	"Box 2"
+      ]
+    },
+    {
+      "name": "Pytanie testowe 4",
+      "type": "time",
+      "answers": [
+	""
+      ]
+    }
+  ]
+}
